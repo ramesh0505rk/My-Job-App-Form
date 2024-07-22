@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application Form</title>
+    <link rel="stylesheet" href="../CSS/index.css" />
+
+</head>
+
+<body>
+    <h1 class="heading">Job Application Form 📜</h1>
+    <div class="container">
+        <form>
+            <table class="myTable">
+
+                <tr>
+                    <td>First name</td>
+                    <td><input type="text" id="firstname" placeholder="Enter your first name"></td>
+                </tr>
+                <tr>
+                    <td>Middle name</td>
+                    <td><input type="text" id="middlename" placeholder="Enter your middle name"></td>
+                </tr>
+                <tr>
+                    <td>Last name</td>
+                    <td><input type="text" id="lastname" placeholder="Enter your last name"></td>
+                </tr>
+                <tr>
+                    <td>Gender</td>
+                    <td><select id="gender" class="Gender">
+                            <option class="select">Select</option>
+                            <option class="male">Male</option>
+                            <option class="female">Female</option>
+                        </select>
+                    </td>
+                </tr>
+                <td>Date of birth</td>
+                <td><input type="date" id="date" class="date"></td>
+                </tr>
+                <tr>
+                    <td>Phone number</td>
+                    <td><input type="number" id="phone" placeholder="Ph. number"></td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td><input type="email" id="email" placeholder="Email"></td>
+                </tr>
+                <tr>
+                    <td>Address</td>
+                    <td><textarea class="address" id="address" placeholder="Enter your address"></textarea></td>
+                </tr>
+                <tr>
+                    <td>Highest Qualification</td>
+                    <td><input type="text" id="qualification" placeholder="Enter your highest qualification"></td>
+                </tr>
+                <tr>
+                    <td>University</td>
+                    <td><input type="text" id="University" placeholder="Enter your University"></td>
+                </tr>
+                <tr>
+                    <td>Skills</td>
+                    <td><textarea class="skills" id="skills" placeholder="Enter your skills"></textarea></td>
+                </tr>
+
+            </table>
+        </form>
+        <button class="submit" onclick="changeApp()">Submit</button>
+    </div>
+
+    <div id="result" class="nothing"></div>
+
+    <script src="../JS/index.js"></script>
+    <!-- <img src="../resources/images/bg.jpg"/> -->
+</body>
+
+</html>
